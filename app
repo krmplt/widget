@@ -16,7 +16,7 @@
 
     xhr = new XMLHttpRequest();
     xhr.onload = playASong;
-    xhr.open("get", "https://api.github.com/repos/robin-drexler/isnowplayinginyourhead/contents/songs.json", true);
+    xhr.open("get", "xxxxxxxxxxn", true);
     xhr.setRequestHeader('Accept', 'application/vnd.github.v3.raw+json')
     xhr.send();
 })();
