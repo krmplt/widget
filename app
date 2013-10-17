@@ -16,7 +16,7 @@
 
     xhr = new XMLHttpRequest();
     xhr.onload = playASong;
-    xhr.open("get", "https://github.com/krmplt/widget/blob/master/canciones.json", true);
+    xhr.open("get", "XXXXXXXXX", true);
     xhr.setRequestHeader('Accept', 'application/vnd.github.v3.raw+json')
     xhr.send();
 })();
